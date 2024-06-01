@@ -1,7 +1,7 @@
 # GreenLife App
 GreenLife app join all volunteers and other people who wants help to our space be more eco-friendly. In application you can create your own account and write your suggestions or reaches. Also you can read news.
 
-![Illustration](https://github.com/adilism48/GreenLifeApp/blob/main/img/posts.png)![Illustration](https://github.com/adilism48/GreenLifeApp/blob/main/img/news.png)
+![Illustration](https://github.com/adilism48/GreenLifeApp/blob/main/img/posts.png | width=200)![Illustration](https://github.com/adilism48/GreenLifeApp/blob/main/img/news.png | width=200)
 
 # Functionality
 - Create account and recover pass via email if you forget pass (Firestore Auth)
@@ -10,7 +10,7 @@ GreenLife app join all volunteers and other people who wants help to our space b
 - Shows you what is interesting to you
 - Change your privacy settings
 
-News API from https://mockapi.io/
+News from ApiCreator https://mockapi.io/
 
 ## Video Illustration
 https://youtu.be/slsd1rxgesI
