@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_news">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.greenlifeapp.view.posts.PostsFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_posts" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.greenlifeapp.view.news.NewsFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.greenlifeapp.view.settings.SettingsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
